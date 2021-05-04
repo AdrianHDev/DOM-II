@@ -25,8 +25,11 @@
 
     .nav {
       width: 350px;
+      height: 5rem;
       display: flex;
       justify-content: space-evenly;
+      align-items: center;
+      transition: 2s;
 
       @media @mobile {
         width: 100%;
@@ -37,6 +40,9 @@
       a {
         font-size: 1.6rem;
         color: @font-color;
+        transition-duration: 2s;
+        width:auto;
+        vertical-align: middle;
         text-decoration: none;
       }
     }
